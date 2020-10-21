@@ -1,0 +1,112 @@
+::-webkit-scrollbar {
+    box-shadow: inset 0 0 5px grey;
+    border-radius: 10px;
+    height:6px;
+    width:2px;
+    background-color: #0f4257;
+}
+
+::-webkit-scrollbar-thumb {
+    box-shadow: inset 0 0 5px ;
+    background-color: #4882a850;
+}
+
+body {
+    background-color: #00ADEF;
+    text-align: center;
+}
+
+img {
+    height: 200px;
+}
+
+h3 {
+    font-size: 15px;
+    font-family: 'Homemade Apple', cursive;
+    padding: 5px;
+}
+
+a {
+    color: black;
+}
+a:visited{
+    color: black;
+}
+
+
+h4 {
+    font-family: 'Roboto', sans-serif;
+}
+
+p{
+    font-family: 'Roboto', sans-serif;
+    font-size: 8px;
+}
+
+.data{
+    border: black 5px solid;
+    width: auto;
+    height: auto;
+    margin: 20px 10% 50px 10%;
+    background: url(http://www.ghibli.jp/gallery/mononoke023.jpg);
+    background-position: center top;
+}
+
+.movies{
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+}
+.indivMovie{
+    background-color: #3e887f;
+    padding: 10px;
+    border: black 1px solid;
+    border-radius: 10px;
+    height: 120px;
+    width: 120px;
+    margin: 20px;
+    transition: transform 0.4s ease-in-out;
+    text-align: center;
+}
+.indivMovie:hover {
+    transform: scale(2);
+  }
+
+
+.movieOne{
+    position: absolute;
+    height: 120px;
+    width: 120px;
+    opacity: 1;
+    transition: opacity 0.4s ease-in-out;
+
+}
+.movieOne:hover{
+    transition: opacity 0.4s ease-in-out;
+    opacity: 0;
+}
+
+.movieTwo{
+    opacity: 0;
+    position: absolute;
+    padding: 0px;
+    margin: 0px;
+    height: 120px;
+    width: 120px;
+    transition: opacity 0.4s ease-in-out;
+    overflow-y: auto;
+    font-size: 10px;
+
+}
+
+
+.movieTwo:hover{
+    background-color: #3e887f;
+    position: absolute;
+    margin: 0px;
+    opacity: 1;
+    transition: opacity 0.4s ease-in-out;
+}
+
