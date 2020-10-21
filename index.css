@@ -48,7 +48,7 @@ p{
     width: auto;
     height: auto;
     margin: 20px 10% 50px 10%;
-    background: url(http://www.ghibli.jp/gallery/mononoke023.jpg);
+    background: url("assets/mononokebg.jpg");
     background-position: center top;
 }
 
